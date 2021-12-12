@@ -1,0 +1,42 @@
+body {
+  background-color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 50px;
+  height: 500px;
+}
+.list {
+  word-spacing: -1ch;
+}
+.item {
+  display: inline-block;
+  width: 217.5px;
+  vertical-align: text-top;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+img {
+  width: 217.5px;
+}
+.text {
+  word-spacing: normal;
+  margin-left: 70px;
+}
+.giua {
+  text-align: center;
+}
+.gioi-thieu {
+  word-spacing: normal;
+  overflow: hidden;
+}

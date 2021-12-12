@@ -1,0 +1,81 @@
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+.top {
+  background-image: url(../img/background-top.jpg);
+  text-align: center;
+}
+.menu-link {
+  font-size: 170%;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+.menu-link.active {
+  background-color: gray;
+  border-radius: 25px;
+  border-bottom: dashed red 4px;
+  border-top: dashed red 4px;
+  border-left: dotted white 5px;
+  border-right: dotted white 5px;
+}
+.bot {
+  background-image: url(../img/background-bot.jpg);
+  text-align: center;
+}
+.back {
+  background-color: black;
+  padding: 1px 20px;
+  font-size: 120%;
+  display: inline-block;
+}
+h1 {
+  font-size: 250%;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 10px red;
+}
+.mid {
+  background-image: url(../img/background-body.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h2 {
+  color: white;
+  font-size: 190%;
+  margin-left: 100px;
+}
+p {
+  color: white;
+}
+.text {
+  font-size: 150%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mid img {
+  margin-left: 80px;
+}
+.bot img {
+  margin-left: 20px;
+}
+.text-list {
+  color: white;
+  font-size: 250%;
+}
+ul {
+  list-style: square;
+}

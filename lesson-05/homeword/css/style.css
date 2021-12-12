@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.row > * {
+  flex-shrink: 1;
+  flex-grow: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+}
+
+.col-1 {
+  flex-basis: 8.333333%;
+}
+.col-2 {
+  flex-basis: 16.666666%;
+}
+.col-3 {
+  flex-basis: 25%;
+}
+.col-4 {
+  flex-basis: 33.333333%;
+}
+.col-5 {
+  flex-basis: 41.666666%;
+}
+.col-6 {
+  flex-basis: 50%;
+}
+.col-7 {
+  flex-basis: 58.333333%;
+}
+.col-8 {
+  flex-basis: 66.666666%;
+}
+.col-9 {
+  flex-basis: 75%;
+}
+.col-10 {
+  flex-basis: 83.333333%;
+}
+.col-11 {
+  flex-basis: 91.666666%;
+}
+.col-12 {
+  flex-basis: 100%;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+
+.logo {
+  height: 60px;
+  width: 60px;
+  background-color: #8db1ab;
+  border-radius: 50%;
+  margin-top: 36px;
+  margin-bottom: 10px;
+}
+.img-logo {
+  height: 24px;
+  width: 24px;
+}
+.text-logo {
+  text-transform: uppercase;
+}
+.text-logo h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+.text-logo p {
+  color: #8db1ab;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-top: -6px;
+}
+
+/* nav */
+.menu-list {
+  margin-top: 35px;
+}
+#menu-item-active {
+  text-decoration: none;
+  color: #8db1ab;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 20px;
+  font-size: 18px;
+}
+.menu-item {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* main */
+.item-list {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.item-main {
+  height: 220px;
+  overflow: hidden;
+}
+/* footer */
+.box-footer {
+  margin-top: 65px;
+  margin-bottom: 85px;
+}
+.icon-box {
+  height: 50px;
+  width: 50px;
+  background-color: #f5f6f8;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+.left-footer {
+  margin-left: 130px;
+}
+.box-footer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.box-footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.box-footer a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.box-footer a:hover {
+  text-decoration: underline;
+}
+.nav-footer {
+  margin-left: -30px;
+  margin-bottom: -15px;
+}
+.box-footer-right {
+  margin-top: -60px;
+}
+.text-copy {
+  text-align: center;
+  margin-top: 108px;
+}
